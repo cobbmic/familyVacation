@@ -1,0 +1,1288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Family Road Trip Plan | June 7-16, 2026</title>
+  <style>
+    :root {
+      --ink: #192026;
+      --muted: #66717b;
+      --paper: #fffdf8;
+      --panel: #ffffff;
+      --line: #dde5e8;
+      --navy: #183b56;
+      --pine: #2f6f5e;
+      --brick: #a94e3f;
+      --gold: #d69b35;
+      --sky: #cbe1ea;
+      --soft: #eef4f1;
+      --shadow: 0 18px 45px rgba(25, 32, 38, .12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+
+    a {
+      color: var(--navy);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .hero {
+      min-height: 92vh;
+      color: white;
+      background:
+        linear-gradient(90deg, rgba(13, 31, 45, .88), rgba(13, 31, 45, .38)),
+        url("https://images.unsplash.com/photo-1534270804882-6b5048b1c1fc?auto=format&fit=crop&w=1800&q=80") center/cover;
+      display: grid;
+      align-items: end;
+      padding: 34px;
+    }
+
+    .hero-inner {
+      width: min(1180px, 100%);
+      margin: 0 auto;
+      padding: 0 0 42px;
+    }
+
+    .eyebrow {
+      margin: 0 0 16px;
+      text-transform: uppercase;
+      letter-spacing: 0;
+      font-size: .78rem;
+      font-weight: 800;
+      color: #f6d48a;
+    }
+
+    h1 {
+      max-width: 980px;
+      margin: 0;
+      font-size: clamp(3.1rem, 9vw, 7.8rem);
+      line-height: .93;
+      letter-spacing: 0;
+    }
+
+    .hero-copy {
+      max-width: 760px;
+      margin: 22px 0 0;
+      font-size: clamp(1.08rem, 2vw, 1.35rem);
+      color: rgba(255, 255, 255, .88);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      max-width: 900px;
+      margin-top: 30px;
+    }
+
+    .hero-stat {
+      border: 1px solid rgba(255,255,255,.28);
+      background: rgba(255,255,255,.1);
+      backdrop-filter: blur(8px);
+      border-radius: 8px;
+      padding: 14px;
+      min-height: 88px;
+    }
+
+    .hero-stat b {
+      display: block;
+      font-size: 1.42rem;
+      line-height: 1.1;
+    }
+
+    .hero-stat span {
+      display: block;
+      margin-top: 4px;
+      color: rgba(255,255,255,.78);
+      font-size: .9rem;
+    }
+
+    .next-hint {
+      width: min(1180px, calc(100% - 68px));
+      margin: -30px auto 0;
+      position: relative;
+      z-index: 2;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 18px;
+      display: grid;
+      grid-template-columns: 1.1fr 1fr 1fr;
+      gap: 14px;
+    }
+
+    .hint-item {
+      padding: 4px 10px;
+      border-left: 4px solid var(--gold);
+    }
+
+    .hint-item:nth-child(2) {
+      border-left-color: var(--pine);
+    }
+
+    .hint-item:nth-child(3) {
+      border-left-color: var(--brick);
+    }
+
+    .hint-item strong {
+      display: block;
+      font-size: .94rem;
+    }
+
+    .hint-item span {
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    .wrap {
+      width: min(1180px, calc(100% - 36px));
+      margin: 0 auto;
+    }
+
+    .tabs {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(255,253,248,.94);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+      margin-top: 26px;
+    }
+
+    .tabbar {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0;
+    }
+
+    .tab-buttons {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .tab-button {
+      border: 1px solid var(--line);
+      background: white;
+      color: var(--ink);
+      border-radius: 8px;
+      padding: 9px 14px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .tab-button[aria-selected="true"] {
+      background: var(--navy);
+      border-color: var(--navy);
+      color: white;
+    }
+
+    .updated {
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    main {
+      padding: 34px 0 72px;
+    }
+
+    [role="tabpanel"][hidden] {
+      display: none;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 22px;
+      align-items: end;
+      margin: 28px 0 18px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 4.1rem);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      font-size: 1.22rem;
+      line-height: 1.2;
+    }
+
+    .lede {
+      color: var(--muted);
+      max-width: 700px;
+      margin: 10px 0 0;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: white;
+      padding: 6px 10px;
+      color: var(--muted);
+      font-size: .88rem;
+      font-weight: 700;
+    }
+
+    .weather-strip {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin: 24px 0 28px;
+    }
+
+    .weather-day {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      min-height: 145px;
+    }
+
+    .weather-day .date {
+      color: var(--muted);
+      font-size: .84rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .weather-day .temp {
+      margin: 8px 0 4px;
+      font-size: 2.05rem;
+      line-height: 1;
+      font-weight: 900;
+      color: var(--navy);
+    }
+
+    .weather-day p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .93rem;
+    }
+
+    .timeline {
+      position: relative;
+      display: grid;
+      gap: 16px;
+    }
+
+    .day {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 18px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: 0 10px 28px rgba(25, 32, 38, .07);
+      padding: 18px;
+    }
+
+    .day-marker {
+      border-right: 1px solid var(--line);
+      padding-right: 18px;
+    }
+
+    .day-marker .dow {
+      font-weight: 900;
+      color: var(--brick);
+      text-transform: uppercase;
+      font-size: .83rem;
+    }
+
+    .day-marker .date {
+      margin-top: 4px;
+      font-size: 1.45rem;
+      font-weight: 900;
+      line-height: 1.1;
+    }
+
+    .day-marker .place {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: .92rem;
+    }
+
+    .day-main {
+      min-width: 0;
+    }
+
+    .day-title {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .weather-note {
+      border-radius: 8px;
+      background: var(--soft);
+      color: #31584f;
+      padding: 7px 10px;
+      font-size: .88rem;
+      font-weight: 800;
+    }
+
+    .schedule {
+      display: grid;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .slot {
+      display: grid;
+      grid-template-columns: 112px 1fr;
+      gap: 12px;
+      padding: 9px 0;
+      border-top: 1px solid #eef1f2;
+    }
+
+    .slot:first-child {
+      border-top: 0;
+    }
+
+    .time {
+      color: var(--navy);
+      font-weight: 900;
+      font-size: .93rem;
+    }
+
+    .slot p {
+      margin: 0;
+    }
+
+    .slot small {
+      display: block;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+
+    .callouts {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .callout {
+      background: #fbfcfc;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+    }
+
+    .callout strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .callout span {
+      color: var(--muted);
+      font-size: .92rem;
+    }
+
+    .map-band {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(300px, .8fr);
+      gap: 18px;
+      align-items: stretch;
+      margin: 20px 0 30px;
+    }
+
+    .route-visual {
+      min-height: 320px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(rgba(255,255,255,.84), rgba(255,255,255,.84)),
+        url("https://images.unsplash.com/photo-1465447142348-e9952c393450?auto=format&fit=crop&w=1500&q=80") center/cover;
+      padding: 24px;
+      display: grid;
+      align-content: end;
+    }
+
+    .route-line {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 4px;
+      align-items: center;
+    }
+
+    .route-stop {
+      text-align: center;
+      font-size: .82rem;
+      font-weight: 900;
+      color: var(--navy);
+    }
+
+    .route-stop:before {
+      content: "";
+      display: block;
+      width: 15px;
+      height: 15px;
+      margin: 0 auto 8px;
+      border-radius: 50%;
+      background: var(--brick);
+      box-shadow: 0 0 0 5px rgba(169, 78, 63, .18);
+    }
+
+    .route-summary {
+      background: var(--navy);
+      color: white;
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .route-summary p {
+      margin: 0 0 12px;
+      color: rgba(255,255,255,.82);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th,
+    td {
+      padding: 12px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--soft);
+      color: var(--navy);
+      font-size: .82rem;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    td.amount,
+    th.amount {
+      text-align: right;
+      white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .budget-grid {
+      display: grid;
+      grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      box-shadow: 0 10px 28px rgba(25, 32, 38, .06);
+    }
+
+    .total-card {
+      display: grid;
+      align-content: center;
+      min-height: 260px;
+      color: white;
+      background:
+        linear-gradient(135deg, rgba(24,59,86,.96), rgba(47,111,94,.92)),
+        url("https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1400&q=80") center/cover;
+      border-radius: 8px;
+      padding: 26px;
+    }
+
+    .total-card .label {
+      color: rgba(255,255,255,.78);
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: .82rem;
+    }
+
+    .total-card .number {
+      font-size: clamp(2.6rem, 8vw, 5.1rem);
+      line-height: 1;
+      font-weight: 950;
+      margin: 8px 0;
+    }
+
+    .total-card p {
+      margin: 0;
+      color: rgba(255,255,255,.84);
+      max-width: 560px;
+    }
+
+    .bar-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 160px 1fr 86px;
+      gap: 10px;
+      align-items: center;
+      font-size: .92rem;
+    }
+
+    .bar-label {
+      font-weight: 800;
+    }
+
+    .bar-track {
+      height: 14px;
+      background: #edf1f2;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .bar {
+      height: 100%;
+      border-radius: inherit;
+      background: var(--pine);
+    }
+
+    .bar.gold {
+      background: var(--gold);
+    }
+
+    .bar.brick {
+      background: var(--brick);
+    }
+
+    .bar.navy {
+      background: var(--navy);
+    }
+
+    .bar-value {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .notes-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .source-list {
+      columns: 2;
+      column-gap: 28px;
+      margin: 8px 0 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    .source-list li {
+      break-inside: avoid;
+      margin: 0 0 7px;
+    }
+
+    .print-note {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        padding: 24px;
+      }
+
+      .hero-grid,
+      .weather-strip,
+      .callouts,
+      .notes-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .next-hint,
+      .map-band,
+      .budget-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section-head {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .hero {
+        min-height: 86vh;
+      }
+
+      .hero-grid,
+      .weather-strip,
+      .callouts,
+      .notes-grid,
+      .next-hint {
+        grid-template-columns: 1fr;
+      }
+
+      .next-hint {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .tabbar {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .day {
+        grid-template-columns: 1fr;
+      }
+
+      .day-marker {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+        padding-right: 0;
+        padding-bottom: 12px;
+      }
+
+      .slot {
+        grid-template-columns: 1fr;
+        gap: 2px;
+      }
+
+      .bar-row {
+        grid-template-columns: 1fr;
+      }
+
+      .bar-value {
+        text-align: left;
+      }
+
+      .source-list {
+        columns: 1;
+      }
+    }
+
+    @media print {
+      .hero,
+      .tabs,
+      .next-hint {
+        display: none;
+      }
+
+      body {
+        background: white;
+      }
+
+      main {
+        padding: 0;
+      }
+
+      .day,
+      .panel,
+      .weather-day,
+      .total-card {
+        break-inside: avoid;
+        box-shadow: none;
+      }
+
+      [role="tabpanel"][hidden] {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Auburn to New York, Lancaster, Gettysburg, DC and home</p>
+      <h1>Family Road Trip Plan</h1>
+      <p class="hero-copy">June 7-16, 2026. This rebuild uses the inbox updates, the booked NYC and Lancaster stays, current NYC weather, and a budget model that includes gas, hotels, transit, food, tickets, parking, and tolls.</p>
+      <div class="hero-grid" aria-label="Trip summary">
+        <div class="hero-stat"><b>10 days</b><span>Full route through June 16</span></div>
+        <div class="hero-stat"><b>5 travelers</b><span>2 adults, 3 kids/teens</span></div>
+        <div class="hero-stat"><b>$9.5k</b><span>Projected core spend</span></div>
+        <div class="hero-stat"><b>2,450 mi</b><span>Estimated driving total</span></div>
+      </div>
+    </div>
+  </header>
+
+  <aside class="next-hint" aria-label="Plan highlights">
+    <div class="hint-item">
+      <strong>Weather move</strong>
+      <span>Use June 10 for Lower Manhattan because it is the driest NYC day in the current notes.</span>
+    </div>
+    <div class="hint-item">
+      <strong>Heat move</strong>
+      <span>Keep June 11 mostly indoor, then leave the city before the hottest part of the afternoon.</span>
+    </div>
+    <div class="hint-item">
+      <strong>Budget move</strong>
+      <span>Skip a paid NYC observatory unless you intentionally trade it for another ticketed stop.</span>
+    </div>
+  </aside>
+
+  <nav class="tabs" aria-label="Trip plan sections">
+    <div class="wrap tabbar">
+      <div class="tab-buttons" role="tablist" aria-label="Plan tabs">
+        <button class="tab-button" id="tab-itinerary" role="tab" aria-controls="itinerary" aria-selected="true">Itinerary</button>
+        <button class="tab-button" id="tab-budget" role="tab" aria-controls="budget" aria-selected="false">Budget</button>
+        <button class="tab-button" id="tab-sources" role="tab" aria-controls="sources" aria-selected="false">Sources</button>
+      </div>
+      <div class="updated">Built from inbox update: June 2, 2026</div>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <section id="itinerary" role="tabpanel" aria-labelledby="tab-itinerary">
+      <div class="section-head">
+        <div>
+          <h2>Best Daily Plan</h2>
+          <p class="lede">This is the strongest version of the route: arrive in NYC early on June 8, use luggage storage twice, keep the car at Metropark, anchor Pennsylvania around Hersheypark and Amish Country, then use Gettysburg plus a short DC stop on the way home.</p>
+          <div class="badge-row">
+            <span class="badge">NYC hotel: Hotel Belleclaire, June 8-11</span>
+            <span class="badge">Lancaster Airbnb: June 11-14</span>
+            <span class="badge">Store stops: 30 minutes each</span>
+            <span class="badge">No souvenirs budgeted</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="weather-strip" aria-label="Weather-based NYC plan">
+        <article class="weather-day">
+          <div class="date">Mon, June 8 - NYC</div>
+          <div class="temp">75/60</div>
+          <p>Light rain risk. Keep the arrival day flexible, use luggage storage, and stay near Upper West Side/Central Park.</p>
+        </article>
+        <article class="weather-day">
+          <div class="date">Tue, June 9 - NYC</div>
+          <div class="temp">80/61</div>
+          <p>Highest NYC rain risk in the notes. Put AMNH and uptown shops here.</p>
+        </article>
+        <article class="weather-day">
+          <div class="date">Wed, June 10 - NYC</div>
+          <div class="temp">85/63</div>
+          <p>Driest NYC day. Use it for NYSE, WTC, Chinatown, Little Italy, and downtown walking.</p>
+        </article>
+        <article class="weather-day">
+          <div class="date">Thu, June 11 - NYC to PA</div>
+          <div class="temp">90/70</div>
+          <p>Hot. Keep activities shaded or indoors, then leave for Lancaster after lunch.</p>
+        </article>
+      </div>
+
+      <div class="map-band">
+        <div class="route-visual" aria-label="Route overview">
+          <div class="route-line">
+            <div class="route-stop">Auburn</div>
+            <div class="route-stop">Staunton</div>
+            <div class="route-stop">NYC</div>
+            <div class="route-stop">Lancaster</div>
+            <div class="route-stop">DC</div>
+            <div class="route-stop">Auburn</div>
+          </div>
+        </div>
+        <div class="route-summary">
+          <h3>Route Logic</h3>
+          <p>Do the hardest northbound drive before NYC, then use the fixed Lancaster stay as the recovery base after Manhattan.</p>
+          <p>Philadelphia is possible only as a swap on June 13. The better family plan is Amish Country plus Landis Valley, because Hersheypark already uses the main Pennsylvania park day.</p>
+          <p>After DC, overnight near Roanoke/Christiansburg so June 16 is long but reasonable.</p>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <article class="day">
+          <aside class="day-marker">
+            <div class="dow">Sunday</div>
+            <div class="date">June 7</div>
+            <div class="place">Auburn to Staunton, VA</div>
+          </aside>
+          <div class="day-main">
+            <div class="day-title">
+              <h3>Long drive north, no sightseeing pressure</h3>
+              <span class="weather-note">Plan around possible afternoon storms in VA</span>
+            </div>
+            <div class="schedule">
+              <div class="slot"><div class="time">6:30 AM CT</div><p>Leave Auburn with breakfast packed and a full tank.</p></div>
+              <div class="slot"><div class="time">11:30 AM ET</div><p>Lunch stop around Greenville/Spartanburg, SC.<small>Keep it quick so the family is not arriving after dark.</small></p></div>
+              <div class="slot"><div class="time">3:00 PM</div><p>Stretch stop north of Charlotte or near Wytheville, VA.</p></div>
+              <div class="slot"><div class="time">7:30 PM</div><p>Arrive Staunton or Waynesboro. Simple dinner, check in, early night.</p></div>
+            </div>
+            <div class="callouts">
+              <div class="callout"><strong>Hotel to book</strong><span>One-night family suite in Staunton/Waynesboro, budget $210-$240.</span></div>
+              <div class="callout"><strong>Why Staunton</strong><span>It keeps June 8 short enough to reach Metropark and NYC before dinner.</span></div>
+              <div class="callout"><strong>Food</strong><span>Pizza, burgers, or grocery picnic. Do not make this a destination dinner.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day">
+          <aside class="day-marker">
+            <div class="dow">Monday</div>
+            <div class="date">June 8</div>
+            <div class="place">Staunton to Metropark to UWS</div>
+          </aside>
+          <div class="day-main">
+            <div class="day-title">
+              <h3>Arrive early, store luggage, start with the Upper West Side</h3>
+              <span class="weather-note">75 high, 20-30% rain risk</span>
+            </div>
+            <div class="schedule">
+              <div class="slot"><div class="time">6:00 AM</div><p>Leave Staunton. Use I-81/I-78 and keep stops short.</p></div>
+              <div class="slot"><div class="time">12:30 PM</div><p>Arrive Metropark, park the car, and take NJ Transit to New York Penn Station.<small>Buy tickets in the NJ Transit app before boarding.</small></p></div>
+              <div class="slot"><div class="time">2:00 PM</div><p>Taxi or subway to Hotel Belleclaire. Leave bags with luggage storage if the room is not ready.</p></div>
+              <div class="slot"><div class="time">3:00 PM</div><p>Walk the Upper West Side: Westsider Rare and Used Books for 30 minutes, then Central Park near Strawberry Fields if weather is dry.</p></div>
+              <div class="slot"><div class="time">5:30 PM</div><p>Early casual dinner nearby or Serendipity3 if you can get a reservation and want the classic dessert stop.</p></div>
+              <div class="slot"><div class="time">7:30 PM</div><p>Times Square only if everyone has energy. Otherwise keep it a quiet first NYC night.</p></div>
+            </div>
+            <div class="callouts">
+              <div class="callout"><strong>Arrival rule</strong><span>Do not schedule a paid ticket before 4 PM. Traffic and trains can slip.</span></div>
+              <div class="callout"><strong>Hotel base</strong><span>Hotel Belleclaire is well-positioned for AMNH, Central Park, and UWS food.</span></div>
+              <div class="callout"><strong>Rain backup</strong><span>Westsider Books, hotel reset, dinner, then Times Square by subway.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day">
+          <aside class="day-marker">
+            <div class="dow">Tuesday</div>
+            <div class="date">June 9</div>
+            <div class="place">Uptown Manhattan</div>
+          </aside>
+          <div class="day-main">
+            <div class="day-title">
+              <h3>AMNH, Central Park, Madison Avenue shops, Rockefeller Center</h3>
+              <span class="weather-note">80 high, 35% rain risk</span>
+            </div>
+            <div class="schedule">
+              <div class="slot"><div class="time">8:30 AM</div><p>Breakfast: Apollo Bagels if convenient, or a closer UWS bagel/coffee to avoid backtracking.</p></div>
+              <div class="slot"><div class="time">10:00 AM</div><p>American Museum of Natural History.<small>Plan 2.5-3 hours, longer if weather is actively rainy.</small></p></div>
+              <div class="slot"><div class="time">1:00 PM</div><p>Picnic-style lunch or Shake Shack/quick burgers near the museum.</p></div>
+              <div class="slot"><div class="time">2:00 PM</div><p>Central Park walk toward the Met/Upper East Side if dry. If rain starts, go straight to shops and coffee.</p></div>
+              <div class="slot"><div class="time">3:00 PM</div><p>Roller Rabbit Madison Avenue, 30 minutes.</p></div>
+              <div class="slot"><div class="time">3:40 PM</div><p>LoveShackFancy Upper East Side, 30 minutes.</p></div>
+              <div class="slot"><div class="time">4:20 PM</div><p>Ralph's Coffee for a short reset.</p></div>
+              <div class="slot"><div class="time">5:15 PM</div><p>FAO Schwarz and Rockefeller Center.</p></div>
+              <div class="slot"><div class="time">6:45 PM</div><p>Dinner: John's of Bleecker Street if you want classic pizza, or Rubirosa if you can reserve.</p></div>
+            </div>
+            <div class="callouts">
+              <div class="callout"><strong>Why this order</strong><span>Rain risk goes to AMNH first, then shops and indoor resets.</span></div>
+              <div class="callout"><strong>Store timing</strong><span>Each requested store gets a real 30-minute block.</span></div>
+              <div class="callout"><strong>Food fit</strong><span>Pizza/burgers/coffee, avoiding expensive or overly fancy meals.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day">
+          <aside class="day-marker">
+            <div class="dow">Wednesday</div>
+            <div class="date">June 10</div>
+            <div class="place">Lower Manhattan</div>
+          </aside>
+          <div class="day-main">
+            <div class="day-title">
+              <h3>NYSE open, WTC Memorial, Chinatown, Little Italy, Katz's, Strand</h3>
+              <span class="weather-note">85 high, 15% rain risk</span>
+            </div>
+            <div class="schedule">
+              <div class="slot"><div class="time">8:15 AM</div><p>Subway downtown. Aim for the Wall Street area before the NYSE open.</p></div>
+              <div class="slot"><div class="time">9:15 AM</div><p>See the NYSE exterior and opening energy from outside.</p></div>
+              <div class="slot"><div class="time">10:00 AM</div><p>World Trade Center Memorial and Oculus.<small>Plan the free outdoor memorial. Add the museum only if everyone wants a heavier day.</small></p></div>
+              <div class="slot"><div class="time">12:00 PM</div><p>Chinatown snacks and walk. Keep it loose: dumplings, bakeries, and street wandering.</p></div>
+              <div class="slot"><div class="time">1:30 PM</div><p>Little Italy walk, then late lunch or early dinner depending on appetite.</p></div>
+              <div class="slot"><div class="time">3:00 PM</div><p>Katz's Delicatessen for a shared stop if the line is manageable.</p></div>
+              <div class="slot"><div class="time">4:30 PM</div><p>The Strand, 30 minutes minimum. Let book people stay longer if energy is good.</p></div>
+              <div class="slot"><div class="time">6:00 PM</div><p>Dinner options: Rubirosa, John's of Bleecker, or a simpler Little Italy Italian meal.</p></div>
+              <div class="slot"><div class="time">Evening</div><p>Return to Upper West Side without lingering around Penn Station/MSG if NBA Finals crowds are building.</p></div>
+            </div>
+            <div class="callouts">
+              <div class="callout"><strong>Game awareness</strong><span>With NBA Finals activity at MSG, avoid Penn/MSG at peak evening if possible.</span></div>
+              <div class="callout"><strong>Heat pacing</strong><span>Hydrate early. Use Oculus, shops, and restaurants as cooling breaks.</span></div>
+              <div class="callout"><strong>Optional paid swap</strong><span>9/11 Museum adds cost and emotional weight. The free memorial fits better here.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day">
+          <aside class="day-marker">
+            <div class="dow">Thursday</div>
+            <div class="date">June 11</div>
+            <div class="place">NYC to Lancaster</div>
+          </aside>
+          <div class="day-main">
+            <div class="day-title">
+              <h3>Checkout, luggage storage, indoor city finish, then drive to Pennsylvania</h3>
+              <span class="weather-note">90 high, 20% rain risk</span>
+            </div>
+            <div class="schedule">
+              <div class="slot"><div class="time">8:30 AM</div><p>Checkout and store luggage at Hotel Belleclaire.</p></div>
+              <div class="slot"><div class="time">9:15 AM</div><p>Quick breakfast on the Upper West Side, then subway to Chelsea/Flatiron.</p></div>
+              <div class="slot"><div class="time">10:15 AM</div><p>Chelsea Market. Keep the High Line to 20-30 minutes only if shade and heat feel manageable.</p></div>
+              <div class="slot"><div class="time">11:45 AM</div><p>Lunch: Chelsea Square Diner, Los Tacos No. 1 in Chelsea Market, or Au Cheval if the wait is short and the budget allows.</p></div>
+              <div class="slot"><div class="time">1:00 PM</div><p>Pick up luggage from Hotel Belleclaire and go to Penn Station.</p></div>
+              <div class="slot"><div class="time">2:00 PM</div><p>NJ Transit to Metropark, retrieve the car, and start the drive to Lancaster.</p></div>
+              <div class="slot"><div class="time">5:30 PM</div><p>Arrive Lancaster Airbnb. Grocery run, unpack, low-key dinner.</p></div>
+            </div>
+            <div class="callouts">
+              <div class="callout"><strong>Why leave early</strong><span>June 11 is the hottest NYC day in the notes, and Lancaster is already booked.</span></div>
+              <div class="callout"><strong>Do not add</strong><span>Do not add another major paid NYC attraction today.</span></div>
+              <div class="callout"><strong>Dinner fit</strong><span>Cabalar is a good Lancaster burger option if everyone wants to go out.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day">
+          <aside class="day-marker">
+            <div class="dow">Friday</div>
+            <div class="date">June 12</div>
+            <div class="place">Hershey, PA</div>
+          </aside>
+          <div class="day-main">
+            <div class="day-title">
+              <h3>Hersheypark full day with storm backup</h3>
+              <span class="weather-note">Watch for heat and afternoon thunderstorm risk</span>
+            </div>
+            <div class="schedule">
+              <div class="slot"><div class="time">8:15 AM</div><p>Leave Lancaster with sunscreen, refillable bottles, and dry clothes.</p></div>
+              <div class="slot"><div class="time">9:30 AM</div><p>Arrive Hersheypark parking. Enter at opening if hours allow.</p></div>
+              <div class="slot"><div class="time">Morning</div><p>Prioritize the most important rides first before heat and crowds build.</p></div>
+              <div class="slot"><div class="time">12:30 PM</div><p>Lunch in the park. Keep the meal simple and fast.</p></div>
+              <div class="slot"><div class="time">2:00 PM</div><p>Water rides or indoor/covered breaks during peak heat.</p></div>
+              <div class="slot"><div class="time">Storm plan</div><p>If storms pause rides, move to Hershey's Chocolate World and return when rides reopen.</p></div>
+              <div class="slot"><div class="time">6:30 PM</div><p>Dinner in Hershey or back in Lancaster depending on energy.</p></div>
+            </div>
+            <div class="callouts">
+              <div class="callout"><strong>Budget anchor</strong><span>This is the largest single ticketed family activity.</span></div>
+              <div class="callout"><strong>Weather logic</strong><span>Do big outdoor rides early, water/indoor breaks midday.</span></div>
+              <div class="callout"><strong>Do not stack</strong><span>No Gettysburg or Philly today. Let Hershey be the day.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day">
+          <aside class="day-marker">
+            <div class="dow">Saturday</div>
+            <div class="date">June 13</div>
+            <div class="place">Lancaster County</div>
+          </aside>
+          <div class="day-main">
+            <div class="day-title">
+              <h3>Amish Country highlights, Landis Valley, Lancaster food</h3>
+              <span class="weather-note">Keep the plan flexible for heat/rain</span>
+            </div>
+            <div class="schedule">
+              <div class="slot"><div class="time">8:30 AM</div><p>Breakfast at the Airbnb or a Lancaster bakery/cafe.</p></div>
+              <div class="slot"><div class="time">9:30 AM</div><p>Amish Farm and House, countryside bus tour, or similar guided Amish Country introduction.</p></div>
+              <div class="slot"><div class="time">11:45 AM</div><p>Bird-in-Hand / Intercourse / Kitchen Kettle Village area. Keep any shop browsing to intentional 30-minute blocks.</p></div>
+              <div class="slot"><div class="time">12:30 PM</div><p>Lunch: Dienner's, Katie's Kitchen, Bird-in-Hand Bakery/Cafe, or Shady Maple if the family wants the big tourist buffet experience.</p></div>
+              <div class="slot"><div class="time">2:15 PM</div><p>Landis Valley Village and Farm Museum for 90 minutes.</p></div>
+              <div class="slot"><div class="time">4:15 PM</div><p>Rest at Airbnb. Laundry, showers, snacks, and recharge after Hershey.</p></div>
+              <div class="slot"><div class="time">6:00 PM</div><p>Dinner: Cabalar in Lancaster for burgers or a casual pizza/Italian backup.</p></div>
+            </div>
+            <div class="callouts">
+              <div class="callout"><strong>Philly option</strong><span>Swap this day for Independence Hall only if the family strongly prefers Philadelphia.</span></div>
+              <div class="callout"><strong>Recommendation</strong><span>Stay local. Amish Country plus Landis Valley is more distinct and less driving.</span></div>
+              <div class="callout"><strong>Rain backup</strong><span>Landis Valley and indoor farm tour first, scenic drive later.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day">
+          <aside class="day-marker">
+            <div class="dow">Sunday</div>
+            <div class="date">June 14</div>
+            <div class="place">Gettysburg and Vienna</div>
+          </aside>
+          <div class="day-main">
+            <div class="day-title">
+              <h3>Gettysburg town and battlefield, then family visit in Vienna</h3>
+              <span class="weather-note">Car-based touring helps if hot</span>
+            </div>
+            <div class="schedule">
+              <div class="slot"><div class="time">8:00 AM</div><p>Checkout Lancaster Airbnb and drive to Gettysburg.</p></div>
+              <div class="slot"><div class="time">9:30 AM</div><p>Gettysburg Visitor Center. Do Film, Cyclorama, and Museum if the family wants the paid context.</p></div>
+              <div class="slot"><div class="time">11:45 AM</div><p>Battlefield auto tour highlights: Seminary Ridge, Little Round Top area, Devil's Den area, Cemetery Ridge.</p></div>
+              <div class="slot"><div class="time">1:30 PM</div><p>Lunch in town: The Gettysburger Company.</p></div>
+              <div class="slot"><div class="time">2:45 PM</div><p>Drive to Vienna, VA.</p></div>
+              <div class="slot"><div class="time">4:30 PM</div><p>Extended family visit, 30-60 minutes.</p></div>
+              <div class="slot"><div class="time">6:00 PM</div><p>Check into Tysons, Arlington, Alexandria, or Falls Church hotel.</p></div>
+              <div class="slot"><div class="time">Evening</div><p>Optional monuments drive or simple dinner near the hotel.</p></div>
+            </div>
+            <div class="callouts">
+              <div class="callout"><strong>Hotel to book</strong><span>Northern Virginia family room, budget $240-$290.</span></div>
+              <div class="callout"><strong>Gettysburg pace</strong><span>Use the car tour so the battlefield does not become an overheated walk.</span></div>
+              <div class="callout"><strong>Food</strong><span>The Gettysburger Company is the requested Gettysburg food stop.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day">
+          <aside class="day-marker">
+            <div class="dow">Monday</div>
+            <div class="date">June 15</div>
+            <div class="place">DC to Roanoke area</div>
+          </aside>
+          <div class="day-main">
+            <div class="day-title">
+              <h3>Museum of the Bible, one Smithsonian, then start home</h3>
+              <span class="weather-note">Indoor-first DC day</span>
+            </div>
+            <div class="schedule">
+              <div class="slot"><div class="time">8:15 AM</div><p>Checkout, park near a Metro station or drive into DC if parking is prebooked.</p></div>
+              <div class="slot"><div class="time">9:30 AM</div><p>Museum of the Bible. Budget 2-2.5 hours.</p></div>
+              <div class="slot"><div class="time">12:15 PM</div><p>Quick lunch near L'Enfant Plaza / National Mall.</p></div>
+              <div class="slot"><div class="time">1:00 PM</div><p>Pick one free Smithsonian: Air and Space if timed passes are available, otherwise American History.</p></div>
+              <div class="slot"><div class="time">3:15 PM</div><p>Leave DC area before the evening gets too late.</p></div>
+              <div class="slot"><div class="time">7:45 PM</div><p>Arrive Roanoke/Christiansburg area. Overnight before the final push home.</p></div>
+            </div>
+            <div class="callouts">
+              <div class="callout"><strong>Hotel to book</strong><span>Roanoke/Christiansburg family room, budget $160-$200.</span></div>
+              <div class="callout"><strong>Do not overfill</strong><span>Two DC museums plus a long drive is enough.</span></div>
+              <div class="callout"><strong>Backup</strong><span>If everyone is tired, skip Smithsonian and leave after Museum of the Bible.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="day">
+          <aside class="day-marker">
+            <div class="dow">Tuesday</div>
+            <div class="date">June 16</div>
+            <div class="place">Roanoke area to Auburn</div>
+          </aside>
+          <div class="day-main">
+            <div class="day-title">
+              <h3>Final drive home</h3>
+              <span class="weather-note">Keep the day open after arrival</span>
+            </div>
+            <div class="schedule">
+              <div class="slot"><div class="time">7:00 AM ET</div><p>Leave Roanoke/Christiansburg.</p></div>
+              <div class="slot"><div class="time">11:30 AM</div><p>Lunch around Greenville/Spartanburg or another easy I-85 stop.</p></div>
+              <div class="slot"><div class="time">2:30 PM CT</div><p>Last fuel/stretch stop before Auburn.</p></div>
+              <div class="slot"><div class="time">4:30 PM CT</div><p>Arrive Auburn. No planned dinner reservation.</p></div>
+            </div>
+            <div class="callouts">
+              <div class="callout"><strong>Why this works</strong><span>The overnight in Virginia prevents a brutal DC-to-Auburn final day.</span></div>
+              <div class="callout"><strong>Budget</strong><span>Plan one more road lunch plus fuel.</span></div>
+              <div class="callout"><strong>Recovery</strong><span>Leave the evening empty for unpacking and rest.</span></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="budget" role="tabpanel" aria-labelledby="tab-budget" hidden>
+      <div class="section-head">
+        <div>
+          <h2>Projected Budget</h2>
+          <p class="lede">This budget excludes souvenirs and shopping purchases. It does include booked lodging, projected unbooked hotels, fuel, tolls, parking, NJ Transit, subway expenses, food, tickets, and a practical cushion.</p>
+          <div class="badge-row">
+            <span class="badge">Booked lodging: $3,843.45</span>
+            <span class="badge">Projected core spend: $9,508</span>
+            <span class="badge">Planning ceiling with cushion: $10,308</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="budget-grid">
+        <div class="total-card">
+          <div class="label">Projected core trip cost</div>
+          <div class="number">$9,508</div>
+          <p>With an $800 cushion for price variance, extra parking, toll misses, and weather-driven changes, plan against about $10,308.</p>
+        </div>
+        <div class="panel">
+          <h3>Category Share</h3>
+          <div class="bar-list" aria-label="Budget category chart">
+            <div class="bar-row"><div class="bar-label">Lodging</div><div class="bar-track"><div class="bar navy" style="width:47%"></div></div><div class="bar-value">$4,493</div></div>
+            <div class="bar-row"><div class="bar-label">Food</div><div class="bar-track"><div class="bar gold" style="width:28%"></div></div><div class="bar-value">$2,650</div></div>
+            <div class="bar-row"><div class="bar-label">Tickets</div><div class="bar-track"><div class="bar brick" style="width:12%"></div></div><div class="bar-value">$1,180</div></div>
+            <div class="bar-row"><div class="bar-label">Fuel</div><div class="bar-track"><div class="bar" style="width:6%"></div></div><div class="bar-value">$525</div></div>
+            <div class="bar-row"><div class="bar-label">Transit</div><div class="bar-track"><div class="bar" style="width:3.5%"></div></div><div class="bar-value">$330</div></div>
+            <div class="bar-row"><div class="bar-label">Tolls/Parking</div><div class="bar-track"><div class="bar" style="width:3.5%"></div></div><div class="bar-value">$330</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="budget-grid">
+        <div class="panel">
+          <h3>Lodging</h3>
+          <table>
+            <thead><tr><th>Item</th><th>Basis</th><th class="amount">Estimate</th></tr></thead>
+            <tbody>
+              <tr><td>Hotel Belleclaire, NYC</td><td>Booked, June 8-11</td><td class="amount">$2,850.00</td></tr>
+              <tr><td>Lancaster Airbnb</td><td>Booked, June 11-14</td><td class="amount">$993.45</td></tr>
+              <tr><td>Staunton/Waynesboro hotel</td><td>Projected, June 7</td><td class="amount">$220.00</td></tr>
+              <tr><td>Northern Virginia/DC hotel</td><td>Projected, June 14</td><td class="amount">$260.00</td></tr>
+              <tr><td>Roanoke/Christiansburg hotel</td><td>Projected, June 15</td><td class="amount">$170.00</td></tr>
+              <tr><td><strong>Lodging subtotal</strong></td><td></td><td class="amount"><strong>$4,493.45</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="panel">
+          <h3>Transportation</h3>
+          <table>
+            <thead><tr><th>Item</th><th>Basis</th><th class="amount">Estimate</th></tr></thead>
+            <tbody>
+              <tr><td>Gas</td><td>2,450 miles / 22 mpg at about $4.25 avg, plus buffer</td><td class="amount">$525</td></tr>
+              <tr><td>Tolls</td><td>Northeast corridor, bridges/tunnels avoided where possible</td><td class="amount">$150</td></tr>
+              <tr><td>Metropark parking</td><td>4 calendar days at up to about $15/day</td><td class="amount">$60</td></tr>
+              <tr><td>Hershey/DC/other parking</td><td>Park, museums, hotel/local parking</td><td class="amount">$120</td></tr>
+              <tr><td>NJ Transit</td><td>Metropark to NYC and back, 5 travelers, $12.70 each way planning assumption</td><td class="amount">$127</td></tr>
+              <tr><td>NYC subway/bus</td><td>MTA at $3/tap, about 13-15 taps per person across the stay</td><td class="amount">$200</td></tr>
+              <tr><td>DC Metro/local</td><td>Parking/Metro cushion if not driving directly to museum</td><td class="amount">$3-$40</td></tr>
+              <tr><td><strong>Transportation subtotal</strong></td><td></td><td class="amount"><strong>$855</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="budget-grid">
+        <div class="panel">
+          <h3>Food and Snacks</h3>
+          <table>
+            <thead><tr><th>Item</th><th>Basis</th><th class="amount">Estimate</th></tr></thead>
+            <tbody>
+              <tr><td>Road meals</td><td>June 7, 8, 15, 16 drive meals</td><td class="amount">$560</td></tr>
+              <tr><td>NYC meals</td><td>Pizza, Katz's, bagels, diners, casual Italian, desserts</td><td class="amount">$1,050</td></tr>
+              <tr><td>Lancaster/Hershey meals</td><td>Cabalar, Hersheypark food, Amish Country lunch</td><td class="amount">$725</td></tr>
+              <tr><td>DC/Gettysburg meals</td><td>Gettysburger, museum day meals</td><td class="amount">$315</td></tr>
+              <tr><td><strong>Food subtotal</strong></td><td>Includes coffee, ice cream, snacks, and groceries</td><td class="amount"><strong>$2,650</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="panel">
+          <h3>Tickets and Admissions</h3>
+          <table>
+            <thead><tr><th>Item</th><th>Basis</th><th class="amount">Estimate</th></tr></thead>
+            <tbody>
+              <tr><td>AMNH</td><td>General admission estimate for 5</td><td class="amount">$150</td></tr>
+              <tr><td>Hersheypark</td><td>5 tickets plus fees, before food/parking</td><td class="amount">$575</td></tr>
+              <tr><td>Amish Country and Landis Valley</td><td>Farm/tour/museum mix</td><td class="amount">$180</td></tr>
+              <tr><td>Gettysburg</td><td>Film, Cyclorama, Museum for family</td><td class="amount">$100</td></tr>
+              <tr><td>Museum of the Bible</td><td>General admission estimate for 5</td><td class="amount">$160</td></tr>
+              <tr><td>Reservation/fee buffer</td><td>Ticket fees, timed-entry fees, small paid add-ons</td><td class="amount">$15</td></tr>
+              <tr><td><strong>Tickets subtotal</strong></td><td></td><td class="amount"><strong>$1,180</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="notes-grid">
+        <div class="panel">
+          <h3>Optional Adds</h3>
+          <p>9/11 Museum would likely add about $140-$170. A NYC observatory would likely add $230-$330. Philadelphia adds parking/tolls/time even though Independence Hall itself is low-cost.</p>
+        </div>
+        <div class="panel">
+          <h3>Savings Levers</h3>
+          <p>Pack breakfasts on road days, skip the observatory, use the Airbnb for groceries, cap Hersheypark extras, and avoid taxis except arrival/departure with luggage.</p>
+        </div>
+        <div class="panel">
+          <h3>Risk Items</h3>
+          <p>NYC food, hotel parking, Hersheypark food, ticket fees, and Northeast tolls are the easiest lines to underestimate. The $800 cushion is realistic, not padding for souvenirs.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sources" role="tabpanel" aria-labelledby="tab-sources" hidden>
+      <div class="section-head">
+        <div>
+          <h2>Assumptions</h2>
+          <p class="lede">The plan uses the inbox weather for NYC June 8-11. NWS detailed forecasts currently cover the approach into June 8 but not every later trip day, so Pennsylvania/DC days are planned with heat and thunderstorm risk in mind rather than exact day-specific precipitation.</p>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Planning Notes</h3>
+        <table>
+          <thead><tr><th>Topic</th><th>Assumption Used</th></tr></thead>
+          <tbody>
+            <tr><td>NYC weather</td><td>Inbox forecast: June 8 75/60 with 20% rain, June 9 80/61 with 35% rain, June 10 85/63 with 15% rain, June 11 90/70 with 20% rain.</td></tr>
+            <tr><td>NWS forecast window</td><td>Official NWS point forecasts fetched June 2, 2026 reached June 8 for NYC, Lancaster, Gettysburg, and DC, so later dates require flexible heat/rain planning.</td></tr>
+            <tr><td>MTA</td><td>Subway/bus fare verified at $3 for most riders.</td></tr>
+            <tr><td>NJ Transit</td><td>Metropark to New York Penn planning assumption remains $12.70 each way per person; verify in app before purchase.</td></tr>
+            <tr><td>Gas</td><td>AAA state averages on the route were high in the live page data, so the fuel model uses about $4.25/gallon with a buffer.</td></tr>
+            <tr><td>Ticket prices</td><td>Some ticket pages are JavaScript/cart-driven; budget uses conservative family estimates and flags optional paid add-ons.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="panel" style="margin-top:18px">
+        <h3>Source Links Checked</h3>
+        <ul class="source-list">
+          <li><a href="https://api.weather.gov/gridpoints/OKX/34,45/forecast">NWS NYC point forecast</a></li>
+          <li><a href="https://api.weather.gov/gridpoints/CTP/127,30/forecast">NWS Lancaster point forecast</a></li>
+          <li><a href="https://api.weather.gov/gridpoints/CTP/96,16/forecast">NWS Gettysburg point forecast</a></li>
+          <li><a href="https://api.weather.gov/gridpoints/LWX/96,72/forecast">NWS Washington, DC point forecast</a></li>
+          <li><a href="https://www.mta.info/fares-tolls">MTA fares and tolls</a></li>
+          <li><a href="https://www.njtransit.com/station/metropark-station">NJ Transit Metropark Station</a></li>
+          <li><a href="https://www.njtransit.com/tickets/rail-tickets">NJ Transit rail ticket rules</a></li>
+          <li><a href="https://gasprices.aaa.com/">AAA gas prices</a></li>
+          <li><a href="https://www.hersheypark.com/tickets-and-passes/tickets">Hersheypark tickets</a></li>
+          <li><a href="https://www.gettysburgfoundation.org/exhibits-tours-events/exhibits-tours-events/film-cyclorama-museum">Gettysburg Film, Cyclorama, Museum</a></li>
+          <li><a href="https://www.landisvalleymuseum.org/visit/hours-and-rates">Landis Valley hours and rates</a></li>
+          <li><a href="https://tickets.museumofthebible.org/general-admission">Museum of the Bible ticketing</a></li>
+        </ul>
+        <p class="print-note">Before buying tickets, recheck timed-entry availability and hours for AMNH, Hersheypark, Gettysburg, Museum of the Bible, and any Philadelphia swap.</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const tabs = Array.from(document.querySelectorAll('[role="tab"]'));
+    const panels = Array.from(document.querySelectorAll('[role="tabpanel"]'));
+
+    function activateTab(tab) {
+      tabs.forEach((item) => {
+        item.setAttribute('aria-selected', item === tab ? 'true' : 'false');
+      });
+      panels.forEach((panel) => {
+        panel.hidden = panel.id !== tab.getAttribute('aria-controls');
+      });
+    }
+
+    tabs.forEach((tab) => {
+      tab.addEventListener('click', () => activateTab(tab));
+    });
+  </script>
+</body>
+</html>
