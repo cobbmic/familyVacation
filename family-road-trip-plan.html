@@ -610,6 +610,60 @@
       margin-top: 18px;
     }
 
+    .suggestion-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .suggestion-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      box-shadow: 0 10px 28px rgba(25, 32, 38, .06);
+    }
+
+    .suggestion-card h3 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .pick-label {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 4px 9px;
+      background: var(--soft);
+      color: var(--pine);
+      font-size: .76rem;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .pick-label.warn {
+      background: #fff4e0;
+      color: #8a5b13;
+    }
+
+    .pick-label.skip {
+      background: #f7e7e3;
+      color: var(--brick);
+    }
+
+    .compact-list {
+      margin: 10px 0 0;
+      padding-left: 18px;
+      color: var(--muted);
+    }
+
+    .compact-list li {
+      margin-bottom: 8px;
+    }
+
     .source-list {
       columns: 2;
       column-gap: 28px;
@@ -638,7 +692,8 @@
       .hero-grid,
       .weather-strip,
       .callouts,
-      .notes-grid {
+      .notes-grid,
+      .suggestion-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
@@ -662,6 +717,7 @@
       .weather-strip,
       .callouts,
       .notes-grid,
+      .suggestion-grid,
       .next-hint {
         grid-template-columns: 1fr;
       }
@@ -768,6 +824,7 @@
       <div class="tab-buttons" role="tablist" aria-label="Plan tabs">
         <button class="tab-button" id="tab-itinerary" role="tab" aria-controls="itinerary" aria-selected="true">Itinerary</button>
         <button class="tab-button" id="tab-budget" role="tab" aria-controls="budget" aria-selected="false">Budget</button>
+        <button class="tab-button" id="tab-suggestions" role="tab" aria-controls="suggestions" aria-selected="false">Suggestions</button>
         <button class="tab-button" id="tab-sources" role="tab" aria-controls="sources" aria-selected="false">Sources</button>
       </div>
       <div class="updated">Built from inbox update: June 2, 2026</div>
@@ -1223,6 +1280,103 @@
       </div>
     </section>
 
+    <section id="suggestions" role="tabpanel" aria-labelledby="tab-suggestions" hidden>
+      <div class="section-head">
+        <div>
+          <h2>Suggestions</h2>
+          <p class="lede">The itinerary is strong, but it can be sharper. The main opportunity is to trade low-value famous stops for places that are easier with teens, cheaper, more weather-resilient, and more distinctive to each city.</p>
+          <div class="badge-row">
+            <span class="badge">Best add: Lancaster Central Market</span>
+            <span class="badge">Best NYC backup: Transit Museum</span>
+            <span class="badge">Best free skyline: Staten Island Ferry or Roosevelt Island Tram</span>
+            <span class="badge">Best skip: NYC Amish Market</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="suggestion-grid">
+        <article class="suggestion-card">
+          <h3>High-Value Adds <span class="pick-label">Add if time allows</span></h3>
+          <ul class="compact-list">
+            <li><strong>Lancaster Central Market:</strong> better local food/culture than NYC Amish Market. Add Friday morning June 12 before Hershey if park opening is later, or Saturday morning before Amish Country.</li>
+            <li><strong>New York Transit Museum:</strong> excellent rainy-day or heat-day swap for kids/teens. Current admission is modest, with adults at $10 and children 2-17 at $5, and advance tickets are encouraged.</li>
+            <li><strong>Grand Central plus New York Public Library/Bryant Park:</strong> classic, mostly free, and easy to slot into Midtown without adding much cost.</li>
+            <li><strong>Brooklyn Bridge Park/DUMBO:</strong> better skyline payoff than many paid observatories. Add only if June 10 is going smoothly after Lower Manhattan.</li>
+            <li><strong>Roosevelt Island Tram:</strong> a cheap, memorable skyline ride that works better than an expensive observatory if you want a quick "NYC view" moment.</li>
+            <li><strong>National Archives in DC:</strong> if you skip a Smithsonian, the Declaration/Constitution fit the history arc of Gettysburg and Independence Hall.</li>
+          </ul>
+        </article>
+
+        <article class="suggestion-card">
+          <h3>Food You Might Be Missing <span class="pick-label">Family-friendly</span></h3>
+          <ul class="compact-list">
+            <li><strong>Upper West Side breakfast:</strong> add Zabar's, Levain Bakery, or Absolute Bagels style stops near the hotel so breakfast does not create subway backtracking.</li>
+            <li><strong>NYC tacos:</strong> Los Tacos No. 1 in Chelsea Market is usually a better family value than a full sit-down lunch there.</li>
+            <li><strong>Pizza strategy:</strong> choose either John's of Bleecker or Rubirosa as the main pizza meal. Do not spend two prime dinner slots chasing pizza unless that is the family's top NYC goal.</li>
+            <li><strong>Katz's strategy:</strong> go mid-afternoon and split sandwiches. Treat it as an experience/snack, not a full expensive meal for five.</li>
+            <li><strong>Lancaster ice cream:</strong> add Fox Meadows Creamery if route timing works. It fits the family food preferences better than another heavy restaurant meal.</li>
+            <li><strong>Amish Country lunch:</strong> Dienner's, Katie's Kitchen, Bird-in-Hand Bakery/Cafe, or Shady Maple. Shady Maple is touristy but efficient if the family wants the big buffet experience.</li>
+          </ul>
+        </article>
+
+        <article class="suggestion-card">
+          <h3>Overrated or Risky <span class="pick-label skip">Trim first</span></h3>
+          <ul class="compact-list">
+            <li><strong>Times Square:</strong> worth one short night walk, not a long block. It is crowded, expensive, and weaker than almost every neighborhood walk on the list.</li>
+            <li><strong>Serendipity near Times Square:</strong> fun idea, but the value is mostly dessert nostalgia. Keep only if you reserve and treat it as dessert, not a destination dinner.</li>
+            <li><strong>Sephora Times Square:</strong> if shopping time is limited, this is the easiest store to skip. It is not meaningfully different from other locations, just busier.</li>
+            <li><strong>FAO Schwarz:</strong> good for 20-30 minutes if nearby, but do not route the day around it.</li>
+            <li><strong>Empire State/paid observatory:</strong> expensive for five. Use Roosevelt Island Tram, Brooklyn Bridge Park, or Staten Island Ferry unless a paid skyline deck is a family must.</li>
+            <li><strong>Au Cheval:</strong> strong burger reputation, but wait/cost can be poor for a family road trip. Cabalar in Lancaster better matches the trip's burger goal.</li>
+          </ul>
+        </article>
+
+        <article class="suggestion-card">
+          <h3>Swap Matrix <span class="pick-label warn">Use to protect pace</span></h3>
+          <table>
+            <thead><tr><th>If you add...</th><th>Swap out...</th><th>Why</th></tr></thead>
+            <tbody>
+              <tr><td>NY Transit Museum</td><td>FAO Schwarz plus extra Times Square time</td><td>Better for weather, cheaper, more memorable.</td></tr>
+              <tr><td>Brooklyn/DUMBO</td><td>Paid observatory</td><td>Better budget and skyline photos, but only if walking energy is good.</td></tr>
+              <tr><td>Central Market</td><td>NYC Amish Market</td><td>More local, more distinctive, better food context.</td></tr>
+              <tr><td>Philadelphia</td><td>Lancaster Amish/Landis Valley day</td><td>Do not try to do both well. Independence Hall tours need timed-ticket planning most of the day.</td></tr>
+              <tr><td>Monticello</td><td>DC Smithsonian or the Roanoke overnight buffer</td><td>Historically great, but it adds too much route friction unless you extend to June 17.</td></tr>
+            </tbody>
+          </table>
+        </article>
+      </div>
+
+      <div class="panel" style="margin-top:18px">
+        <h3>Suggested Tweaks to the Current Plan</h3>
+        <table>
+          <thead><tr><th>Day</th><th>Keep</th><th>Improve</th></tr></thead>
+          <tbody>
+            <tr><td>June 8</td><td>UWS arrival, Westsider Books, Central Park if dry</td><td>Add Zabar's/Levain as the easy neighborhood food win instead of chasing a Midtown stop after a long drive.</td></tr>
+            <tr><td>June 9</td><td>AMNH, Central Park, Roller Rabbit, LoveShackFancy</td><td>Cap FAO Schwarz and Times Square. If weather turns bad, use Transit Museum instead of forcing park/shopping walks.</td></tr>
+            <tr><td>June 10</td><td>NYSE, WTC, Chinatown, Little Italy, Katz's, Strand</td><td>Add Staten Island Ferry only if you drop something else. This day is already full and hot.</td></tr>
+            <tr><td>June 11</td><td>Chelsea Market, early departure</td><td>Skip High Line if it is truly 90 degrees. Use Chelsea Market/Los Tacos No. 1 as the last NYC food stop.</td></tr>
+            <tr><td>June 12-13</td><td>Hersheypark plus Amish Country</td><td>Add Central Market and Fox Meadows if they fit naturally. Do not add Philly unless it replaces the Lancaster day.</td></tr>
+            <tr><td>June 14-15</td><td>Gettysburg, Vienna, Museum of the Bible</td><td>Use National Archives or one Smithsonian, not both. Keep the drive-home buffer intact.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="notes-grid">
+        <div class="panel">
+          <h3>Best Overall Change</h3>
+          <p>Replace NYC Amish Market with Lancaster Central Market. It is more authentic to the route, easier to enjoy as a family, and gives the Lancaster stay a stronger local food identity.</p>
+        </div>
+        <div class="panel">
+          <h3>Best Cost Control</h3>
+          <p>Skip the paid NYC observatory. For five people, the family gets more value from free/cheap skyline views plus one excellent paid anchor like Hersheypark.</p>
+        </div>
+        <div class="panel">
+          <h3>Best Energy Control</h3>
+          <p>Protect June 11 and June 15. Those are transition days, and overfilling them will make the rest of the trip feel more expensive and less fun.</p>
+        </div>
+      </div>
+    </section>
+
     <section id="sources" role="tabpanel" aria-labelledby="tab-sources" hidden>
       <div class="section-head">
         <div>
@@ -1261,6 +1415,10 @@
           <li><a href="https://www.gettysburgfoundation.org/exhibits-tours-events/exhibits-tours-events/film-cyclorama-museum">Gettysburg Film, Cyclorama, Museum</a></li>
           <li><a href="https://www.landisvalleymuseum.org/visit/hours-and-rates">Landis Valley hours and rates</a></li>
           <li><a href="https://tickets.museumofthebible.org/general-admission">Museum of the Bible ticketing</a></li>
+          <li><a href="https://www.nytransitmuseum.org/know-before-you-visit/">New York Transit Museum visit information</a></li>
+          <li><a href="https://www.nps.gov/inde/planyourvisit/independencehall.htm">NPS Independence Hall visit information</a></li>
+          <li><a href="https://www.nps.gov/stli/planyourvisit/fees.htm">NPS Statue of Liberty fees and ferry notes</a></li>
+          <li><a href="https://centralmarketlancaster.com/">Lancaster Central Market</a></li>
         </ul>
         <p class="print-note">Before buying tickets, recheck timed-entry availability and hours for AMNH, Hersheypark, Gettysburg, Museum of the Bible, and any Philadelphia swap.</p>
       </div>
