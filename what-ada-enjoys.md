@@ -1,0 +1,10 @@
+- Shops with cosmetics/skincare
+  - sephora
+- shops that are popular with 12 yoa girls or influencers who 12 yoa girls tend to watch:
+  - roller rabbit
+  - loveshackfancy
+  - etc.
+- places with cool aesthetics
+- tourist spots that Instagram/YT influencers like for the pictures/experience
+- good desserts
+- good coffeeshops
