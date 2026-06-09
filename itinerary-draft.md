@@ -1,219 +1,208 @@
-# Draft Family Road Trip Itinerary
+# Family Road Trip Itinerary
 
-Planning date: May 26, 2026
+Planning window: June 7-16, 2026
+
+Latest update incorporated: June 8, 2026 daily update
 
 ## Recommendation
 
-Use the full window, but do not max out every day. The best fit is a 10-night trip:
+Use the current 10-day route:
 
-- June 7: Auburn, AL to Staunton, VA
-- June 8-11: Metropark / Manhattan
-- June 12-13: Hershey, PA
-- June 14-15: Gettysburg / Vienna, VA / Washington, DC
-- June 16-17: Drive home in two manageable legs
+- June 7: Auburn, AL to Staunton/Waynesboro, VA
+- June 8-11: Manhattan, based at Hotel Belleclaire
+- June 11-14: Lancaster, PA Airbnb
+- June 14: Gettysburg, then short family visit in Vienna, VA
+- June 15: Washington, DC, then start the drive home
+- June 16: Return to Auburn
 
-This keeps New York as the center of the trip, includes the strongest return-trip ideas, and can stay below the 10,000 USD budget if lodging and shopping are controlled.
+The June 8 update changes the NYC plan: Central Park/Ramble/Strawberry Fields, Roller Rabbit, LoveShackFancy, Ralph's Cafe, and one pizza meal are already done. The remaining NYC priorities are good bagels, more Central Park if energy allows, Chinatown, Little Italy, Katz's or another deli stop, and an indoor-first checkout day because June 11 now has heat and PM storm risk.
 
 ## Day-by-day plan
 
-### Sunday, June 7 - Auburn to Staunton, VA
+### Sunday, June 7 - Auburn to Staunton/Waynesboro, VA
 
-- Drive Auburn to Staunton.
+- Drive Auburn to Staunton or nearby Waynesboro.
 - Treat this as a travel day, not a sightseeing day.
-- Overnight in Staunton or nearby Waynesboro.
+- Keep dinner simple and get to bed early.
 
 Notes:
 
 - This uses the workbook's "Stranton, Virginia" stop as Staunton, VA.
-- Good evening plan: simple dinner downtown, then early night.
+- If the overnight hotel is not booked yet, prioritize a cancellable family room or suite with breakfast and parking.
 
-### Monday, June 8 - Staunton to Metropark, NJ
+### Monday, June 8 - Staunton to Manhattan
 
-- Drive Staunton to Metropark / Iselin, NJ.
-- Check into a hotel near Metropark Station or with easy parking access.
-- If the family still has energy, take the train into Manhattan for a short Times Square evening.
+Status: completed in the daily update.
 
-Train/logistics:
+Completed:
 
-- Metropark Station is on NJ Transit's Northeast Corridor line and has daily parking.
-- NJ Transit lists both East and West parking decks at Metropark as daily/permit parking, with current posted rates of 10 USD up to 16 hours, 12 USD up to 20 hours, and 15 USD up to 24 hours.
-- NJ Transit fare table shows Metropark to New York Penn Station at 12.70 USD one-way adult fare.
-- The kids are 12, 14, and 16, so assume all five travelers pay adult NJ Transit fares.
+- Checked into the hotel.
+- Got baked goods at Mille-feuille Bakery Cafe.
+- Walked Central Park, especially around the Ramble.
+- Ada shopped at Roller Rabbit.
+- Ada shopped at LoveShackFancy.
+- Went to Ralph's Cafe.
+- Walked Central Park again and went to Strawberry Fields.
+- Ate at Made in New York Pizza. It was pretty good.
 
-### Tuesday, June 9 - Upper Manhattan / Midtown
+Planning impact:
 
-Theme: Central Park, AMNH, Upper East Side shopping, Rockefeller Center, Times Square.
+- Do not keep Roller Rabbit, LoveShackFancy, Ralph's, or a full pizza dinner as required future stops.
+- John's of Bleecker can stay as an optional shared taste, but the family probably does not need another pizza-focused meal.
+- Remaining food targets: good bagels, Italian in Little Italy, Chinese food/snacks in Chinatown, and Katz's or another deli stop.
+- Remaining activity target: more Central Park time if the weather and energy are good.
+
+### Tuesday, June 9 - AMNH, bagels, more Central Park, Midtown
+
+Weather from June 8 update: 80/66, mostly sunny, 0 in rain.
+
+Theme: use the driest remaining NYC day for the most outdoor walking.
 
 Suggested order:
 
-- Train to New York Penn Station.
-- Apollo Bagels Midtown, if you want to start with the workbook bagel pick near Penn Station.
-- Subway/taxi to American Museum of Natural History.
-- Walk part of Central Park.
-- Roller Rabbit at 1156 Madison Avenue.
-- LoveShackFancy Upper East Side at 1058 Madison Avenue.
-- FAO Schwarz at Rockefeller Center.
-- Sephora Times Square.
-- Times Square at night.
+- Start with a good bagel stop. Use a strong Upper West Side option if that avoids backtracking; Apollo Bagels only if the route makes sense.
+- American Museum of Natural History.
+- More Central Park, choosing a different loop from June 8, such as Bethesda Terrace, Bow Bridge, or the Great Lawn.
+- FAO Schwarz and Rockefeller Center as a short iconic stop.
+- Sephora Times Square or a brief Times Square pass-through if Ada still wants it.
+- Keep dinner non-pizza unless John's of Bleecker is only a small shared try.
 
-Food targets:
+Notes:
 
-- Bagels or coffee in the morning.
-- Midtown pizza or casual dinner near Times Square.
-
-Why this works:
-
-- AMNH, Central Park, Roller Rabbit, and LoveShackFancy are all naturally grouped uptown.
-- Rockefeller Center and Times Square make sense on the way back toward Penn Station.
+- The Madison Avenue shopping and Ralph's Cafe are already complete.
+- This is the best day left for outdoor Midtown/Central Park walking because Wednesday and Thursday both have rain risk.
 
 ### Wednesday, June 10 - Lower Manhattan / Chinatown / Little Italy
 
-Theme: World Trade Center, Chinatown, Little Italy, Lower East Side food.
+Weather from June 8 update: 78/72, PM showers, 0.13 in rain.
+
+Theme: World Trade Center, Chinatown, Little Italy, Lower East Side food, with rain-flex stops.
 
 Suggested order:
 
-- Train to New York Penn Station, then subway downtown.
-- 9/11 Memorial and World Trade Center area.
-- Optional paid add-on: 9/11 Memorial Museum or One World Observatory. Do not do both unless the family really wants a heavy Lower Manhattan day.
+- Subway downtown early.
+- See the NYSE exterior/opening energy from outside if still wanted.
+- 9/11 Memorial and World Trade Center area before the showers build.
+- Use the Oculus as an indoor break.
 - Chinatown walk and snacks.
-- Little Italy dinner.
-- Katz's Delicatessen for late lunch or early dinner if you prefer the Lower East Side food stop over Italian dinner.
+- Little Italy lunch or early dinner for the remaining Italian target.
+- Katz's Delicatessen as a shared deli stop if the line is manageable.
+- The Strand or SoHo shops as the rain-flex block.
 
 Notes:
 
-- The 9/11 Memorial is free and open daily.
-- The 9/11 Memorial Museum currently requires advance tickets and is open Wednesday through Monday plus select Tuesdays.
-- This is the most emotionally serious day. With kids, it is worth deciding in advance whether the museum is right for the day or whether the outdoor memorial is enough.
+- The 9/11 Memorial is the best fit here because it is free and can be done before rain.
+- Add the 9/11 Museum only if the family specifically wants a heavier, ticketed museum day.
+- Do not add a full pizza dinner unless something else gets dropped.
 
-### Thursday, June 11 - Flexible Manhattan Day
+### Thursday, June 11 - NYC checkout and drive to Lancaster
 
-Theme: stores, books, pizza, skyline view.
+Weather from June 8 update: 90/74, PM thunderstorms, 0.16 in rain.
+
+Theme: indoor-first final NYC block, then leave for Pennsylvania before storms if possible.
 
 Suggested order:
 
-- Empire State Building observation deck if you want one classic paid skyline experience.
-- The Strand bookstore near Union Square.
-- LoveShackFancy SoHo or West Village if the Upper East Side stop did not satisfy the shopping goal.
-- Good pizza: John's of Bleecker, Prince Street Pizza, Rubirosa, or Joe's Pizza depending on where you are.
-- Coffee stop in Greenwich Village, SoHo, or Flatiron.
-
-Backup options:
-
-- If everyone wants a slower day, start late and keep it to The Strand, pizza, and one neighborhood walk.
-- If everyone wants more sightseeing, add Bryant Park / New York Public Library or Grand Central.
-
-### Friday, June 12 - Metropark to Hershey, PA
-
-- Check out from Metropark area.
-- Drive to Hershey, PA.
-- Visit Hershey's Chocolate World.
-- If buying Hersheypark tickets, use the included preview hours the night before the full-day visit if timing and energy work.
+- Check out and store luggage at Hotel Belleclaire.
+- Quick Upper West Side breakfast. Use this as the bagel backup if Tuesday's bagel stop did not happen.
+- Choose one indoor final city block: Chelsea Market, Grand Central/New York Public Library, or a short bookstore/market stop.
+- Early indoor lunch.
+- Pick up luggage and take NJ Transit back to Metropark.
+- Retrieve the car and drive to the Lancaster Airbnb.
+- Keep dinner low-key: groceries, simple takeout, or Cabalar if everyone wants burgers.
 
 Notes:
 
-- Hershey's Chocolate World is open year-round, but hours are date-specific and subject to change.
-- Hersheypark tickets currently advertise a 2026 ticket valid through September 7, 2026 at 89.95 USD before taxes/fees, with some cheaper dated or promotional options.
+- Do not add another major paid NYC attraction today.
+- Skip High Line or Little Island if heat, luggage timing, or storm timing is working against the day.
+- Leaving early is now more important because the forecast changed from mild/cloudy to hot with PM thunderstorms.
 
-### Saturday, June 13 - Hersheypark
+### Friday, June 12 - Hersheypark
 
-- Full Hersheypark day.
-- Overnight in Hershey or Harrisburg area.
+- Drive from Lancaster to Hershey.
+- Make Hersheypark the main day.
+- Use Hershey's Chocolate World as the storm backup if rides pause.
+- Bring sunscreen, refillable bottles, dry clothes, and water-park items.
+- Dinner can be in Hershey or back in Lancaster depending on energy.
 
 Recommendation:
 
-- This is the best "kid-forward" anchor on the return leg. It also breaks up the drive before DC.
+- Do not stack Gettysburg or Philadelphia onto this day. Let Hersheypark be the kid-forward anchor.
+
+### Saturday, June 13 - Lancaster County / Amish Country
+
+- Amish Farm and House, countryside bus tour, or similar guided Amish Country introduction.
+- Bird-in-Hand / Intercourse / Kitchen Kettle Village area.
+- Lunch at Dienner's, Katie's Kitchen, Bird-in-Hand Bakery/Cafe, or Shady Maple if the family wants the large tourist buffet.
+- Landis Valley Village and Farm Museum.
+- Rest at the Airbnb, do laundry, and keep dinner casual.
+
+Recommendation:
+
+- Philadelphia is possible only as a swap for this day. The better family plan is to stay local because Hersheypark already uses the main Pennsylvania outing day.
 
 ### Sunday, June 14 - Gettysburg and Vienna, VA
 
-- Morning drive to Gettysburg.
-- Visit Gettysburg National Military Park battlefield and visitor center.
-- If doing the Film, Cyclorama, and Museum Experience, budget about 20.75 USD per adult and 15.75 USD for the 12-year-old youth ticket.
-- Drive to Vienna, VA for the 1-hour family visit.
-- Overnight in Northern Virginia or Washington, DC.
+- Check out of the Lancaster Airbnb.
+- Drive to Gettysburg.
+- Visit Gettysburg Visitor Center and battlefield highlights.
+- If doing the Film, Cyclorama, and Museum Experience, buy timed tickets.
+- Lunch in town, with The Gettysburger Company as the requested food target.
+- Drive to Vienna, VA for the 30-60 minute family visit.
+- Overnight in Northern Virginia.
 
 Notes:
 
-- Gettysburg battlefield roads and grounds are free; the visitor center is free, but the Film/Cyclorama/Museum Experience is ticketed.
+- Use the car tour/battlefield drive so Gettysburg does not become an overheated walk.
 - Staying outside central DC can reduce hotel and parking cost.
 
-### Monday, June 15 - Washington, DC
+### Monday, June 15 - Washington, DC, then Roanoke/Christiansburg area
 
 - Museum of the Bible.
-- Add one free Smithsonian or monuments walk if energy allows.
-- Overnight in Northern Virginia or DC.
-
-Good family add-ons:
-
-- National Air and Space Museum if timed-entry passes are available.
-- National Museum of American History.
-- Lincoln Memorial / Vietnam Veterans Memorial / Washington Monument walk near sunset.
-
-### Tuesday, June 16 - DC/Northern Virginia to Charlotte, NC or Greenville, SC
-
-- Start the return drive.
-- Overnight in Charlotte, NC, Greenville, SC, or another convenient stop based on fatigue.
+- Add one free Smithsonian only if timed-entry/logistics and energy work.
+- National Air and Space Museum is the strongest Smithsonian add if timed passes are available; American History is the easier backup.
+- Start the drive home in the afternoon.
+- Overnight around Roanoke or Christiansburg.
 
 Recommendation:
 
-- Greenville is a good target if you want a shorter final drive on June 17.
-- Charlotte is a better target if you want to stop earlier.
+- Two DC museums plus the drive-home leg is enough. If everyone is tired, skip the Smithsonian and leave after Museum of the Bible.
 
-### Wednesday, June 17 - Return to Auburn
+### Tuesday, June 16 - Return to Auburn
 
-- Drive home to Auburn.
-- Keep this day mostly free after arrival.
+- Drive from the Roanoke/Christiansburg area to Auburn.
+- Keep the day mostly free after arrival.
+- Plan one road lunch and one last fuel/stretch stop.
 
-## Budget model
+## Budget notes
 
-Target budget: 10,000 USD
+Target budget: about 10,000 USD, excluding uncapped souvenirs/shopping.
 
-Estimated trip cost range:
+Known lodging:
 
-| Category | Estimate |
+| Item | Amount |
 | --- | ---: |
-| Gas | 400-500 USD |
-| Lodging, 10 nights | 2,900-4,400 USD |
-| Food, 11 days | 2,000-2,800 USD |
-| NJ Transit Metropark-Manhattan round trips, 3-4 days | 381-508 USD |
-| NYC subway/bus taps | 150-250 USD |
-| Metropark parking, if needed | 40-75 USD |
-| AMNH general admission | about 155 USD |
-| One skyline/observatory option | 250-350 USD |
-| Hersheypark | 500-600 USD |
-| Gettysburg paid museum experience | about 95 USD |
-| Museum of the Bible | estimate 125-175 USD |
-| Miscellaneous, tolls, snacks, parking | 700-1,000 USD |
-| Shopping buffer | 1,000-1,500 USD |
-| **Estimated total** | **8,651-12,408 USD** |
+| Hotel Belleclaire, June 8-11 | 2,603.00 USD |
+| Lancaster Airbnb, June 11-14 | 993.45 USD |
 
-Practical budget target:
+Planning priorities:
 
-- Keep lodging closer to 3,500 USD.
-- Pick only one paid NYC observatory or museum-heavy add-on per day.
-- Treat shopping as its own capped envelope.
-- With those controls, a realistic total is about 8,800-9,800 USD.
+- Track June 8 receipts for Mille-feuille, Ralph's, Made in New York Pizza, and shopping if budget control matters.
+- Avoid another full pizza dinner unless it replaces another meal target.
+- Prioritize remaining NYC food spend around bagels, Chinatown, Little Italy, and Katz's.
+- Skip a paid NYC observatory unless it intentionally replaces another ticketed activity.
+- Prebuy Hersheypark tickets and decide on parking/add-ons before June 12.
 
 ## Key decisions to make next
 
-- Do you want 3 or 4 Manhattan days?
-- Is Hersheypark a definite yes, or should Hershey be Chocolate World only?
-- For the World Trade Center day, should the family do the 9/11 Museum, One World Observatory, or just the free memorial?
-- Would you rather sleep in DC/Northern Virginia for two nights, or make DC a shorter stop and get home earlier?
+- Which bagel stop should anchor June 9 or June 11 breakfast?
+- Is AMNH still a definite Tuesday stop?
+- On June 10, should the family do only the free 9/11 Memorial or add the ticketed museum?
+- Should Katz's be a shared snack/experience or a real meal?
+- Is June 11 departure time early enough to avoid the worst PM thunderstorm risk?
 
-## Source notes checked
+## Local update sources
 
-- [NJ Transit Metropark Station](https://www.njtransit.com/station/metropark-station)
-- [NJ Transit Northeast Corridor fare table](https://content.njtransit.com/sites/default/files/pdfs/rail/2025/06/80003/nec.pdf)
-- [NJ Transit rail ticket rules and child fares](https://www.njtransit.com/tickets/rail-tickets/)
-- [MTA fares and tolls](https://www.mta.info/fares-tolls)
-- [American Museum of Natural History plan your visit](https://www.amnh.org/plan-your-visit)
-- [9/11 Memorial & Museum visit information](https://www.911memorial.org/visit)
-- [9/11 Memorial & Museum getting here and hours](https://www.911memorial.org/visit/about/getting-here)
-- [Hersheypark tickets](https://www.hersheypark.com/tickets-and-passes/tickets)
-- [Hershey's Chocolate World hours](https://www.chocolateworld.com/en_us/plan-a-visit/hours.html)
-- [Gettysburg National Military Park hours](https://home.nps.gov/gett/planyourvisit/hours.htm)
-- [Gettysburg National Military Park fees](https://home.nps.gov/gett/planyourvisit/fees.htm)
-- [Roller Rabbit store locations](https://rollerrabbit.com/pages/our-stores)
-- [LoveShackFancy store locations](https://www.loveshackfancy.com/pages/locations)
-- [Apollo Bagels locations](https://apollobagels.com/locations)
-- [AAA current national gas average](https://gasprices.aaa.com/)
+- `daily-updates.md` June 8 update
+- `inbox/202606020852-updates.md`
+- `inbox/202606060714-updates.md`
